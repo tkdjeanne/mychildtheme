@@ -1,0 +1,95 @@
+/*
+Theme Name: childtwentyten
+Description: A childtheme to modify TwentyTen for a devotional blog
+Author: Jeanne M. Garrity
+Version: 1.0
+Template: twentyten
+*/
+@import url('../twentyten/style.css');
+
+@import url(http://fonts.googleapis.com/css?family=Stalemate|Amaranth);
+
+.full-width #content  {
+margin-right: 0 auto;
+width: 100%;
+}
+
+
+
+h1 {
+text-transform: uppercase;
+}
+
+
+
+
+#container {
+	float: left;
+	margin: 0 -24px 0 0;
+	width: 100%;
+}
+#content {
+	margin: 0 -24px 0 0px;
+	width: 100%;
+}
+#primary,
+#secondary {
+	float: right;
+	overflow: hidden;
+	width: 0px;
+}
+#secondary {
+	clear: right;
+}
+#footer {
+	clear: both;
+	width: 100%;
+}
+
+
+body,
+input,
+textarea,
+.page-title span,
+.pingback a.url {
+	font-family: Georgia, "Bitstream Charter", serif;
+}
+h3#comments-title,
+h3#reply-title,
+#access .menu,
+#access div.menu ul,
+#cancel-comment-reply-link,
+.form-allowed-tags,
+#site-info,
+#site-title,
+#wp-calendar,
+.comment-meta,
+.comment-body tr th,
+.comment-body thead th,
+.entry-content label,
+.entry-content tr th,
+.entry-content thead th,
+.entry-meta,
+.entry-title,
+.entry-utility,
+#respond label,
+.navigation,
+.page-title,
+.pingback p,
+.reply,
+.widget-title,
+.wp-caption-text {
+	font-family: "Amaranth", "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+}
+input[type="submit"] {
+	font-family: "Amaranth", "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+}
+pre {
+	font-family: "Courier 10 Pitch", Courier, monospace;
+}
+code {
+	font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+}
+
+
+
